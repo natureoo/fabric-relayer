@@ -1,6 +1,6 @@
 {
   "PolyConfig": {
-    "RestURL": "http://106.75.226.11:40336",
+    "RestURL": "http://47.242.2.199:20336",
     "EntranceContractAddress": "0300000000000000000000000000000000000000",
     "WalletFile": "./wallet/wallet.dat",
     "WalletPwd": "4cUYqGj2yib718E7ZmGQc"
@@ -8,19 +8,19 @@
   "FabricConfig": {
     "SideChainId": 7,
     "BlockConfig": 1,
-    "Channel":"mychannel",
+    "Channel":"mainchannel",
     "Chaincode": "ccm",
     "SdkConfFile": "config/config_e2e.yaml",
     "UserName": "Admin",
     "OrgName": "Org1",
     "TrustChainFiles": [
       [
-        "/data/gopath/src/github.com/polynetwork/fabric-relayer/root-cert.pem",
-        "/data/gopath/src/github.com/polynetwork/fabric-relayer/user1-cert.pem"
+        "/Users/chenjian/Documents/chenj/work/workplace/golang/src/github.com/polynetwork/fabric-relayer/root-cert.pem",
+        "/Users/chenjian/Documents/chenj/work/workplace/golang/src/github.com/polynetwork/fabric-relayer/user1-cert.pem"
       ]
     ],
     "PrivateKeyFiles": [
-      "/data/gopath/src/github.com/polynetwork/fabric-relayer/user1_sk"
+      "/Users/chenjian/Documents/chenj/work/workplace/golang/src/github.com/polynetwork/fabric-relayer/user1_sk"
     ]
   },
   "BoltDbPath": "./boltdb"

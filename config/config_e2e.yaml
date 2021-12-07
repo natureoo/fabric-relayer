@@ -25,7 +25,7 @@ client:
   organization: Org1
 
   logging:
-    level: info
+    level: debug
 
   # Root of the MSP directories with keys and certs.
   cryptoconfig:
@@ -61,9 +61,11 @@ client:
     # [Optional]. Client key and cert for TLS handshake with peers and orderers
     client:
       key:
-        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/client.key
+#        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/client.key
+        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/Admin@org1.example.com/tls/client.key
       cert:
-        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/client.crt
+#        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/User1@org1.example.com/tls/client.crt
+        path: ${FABRIC_RELAYER_PATH}/peerOrganizations/org1.example.com/users/Admin@org1.example.com/tls/client.crt
 
 #
 # [Optional]. But most apps would have this section so that channel objects can be constructed
@@ -179,7 +181,7 @@ channels:
 
   #[Required if _default not defined; Optional if _default defined].
   # name of the channel
-  mychannel:
+  mainchannel:
 
     # list of orderers designated by the application to use for transactions on this
     # channel. This list can be a result of access control ("org1" can only access "ordererA"), or
@@ -221,7 +223,9 @@ organizations:
     peers:
       - peer0.org1.example.com
 
-    cryptoPath:  peerOrganizations/org1.example.com/users/{username}@org1.example.com/msp
+#    cryptoPath:  peerOrganizations/org1.example.com/users/{username}@org1.example.com/msp
+#    cryptoPath:  peerOrganizations/org1.example.com/users/User1@org1.example.com/msp
+    cryptoPath:  peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
 
 #
 # List of orderers to send transaction and channel create/update requests to. For the time
@@ -232,7 +236,8 @@ organizations:
 orderers:
   orderer.example.com:
     # [Optional] Default: Infer from hostname
-    url: orderer.example.com:7050
+#    url: orderer.example.com:7050
+    url: grpcs://47.242.2.199:7050
 
     # these are standard properties defined by the gRPC library
     # they will be passed in as-is to gRPC client constructor
@@ -259,7 +264,8 @@ peers:
   peer0.org1.example.com:
     # this URL is used to send endorsement and query requests
     # [Optional] Default: Infer from hostname
-    url: peer0.org1.example.com:7051
+#    url: peer0.org1.example.com:10051
+    url: grpcs://47.242.2.199:10051
 
     grpcOptions:
       ssl-target-name-override: peer0.org1.example.com
@@ -280,7 +286,8 @@ peers:
   peer0.org2.example.com:
     # this URL is used to send endorsement and query requests
     # [Optional] Default: Infer from hostname
-    url: peer0.org2.example.com:9051
+#    url: grpcs://peer0.org2.example.com:10055
+    url: grpcs://47.242.2.199:10055
 
     grpcOptions:
       ssl-target-name-override: peer0.org2.example.com
