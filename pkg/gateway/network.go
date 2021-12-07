@@ -7,11 +7,11 @@ SPDX-License-Identifier: Apache-2.0
 package gateway
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/event"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel"
+	"github.com/polynetwork/fabric-relayer/pkg/client/event"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 )
 
 // A Network object represents the set of peers in a Fabric network (channel).

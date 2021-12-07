@@ -14,16 +14,16 @@ import (
 	"strings"
 	"testing"
 
-	fabricCaUtil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	providersFab "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/sw"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/pkg/errors"
+	fabricCaUtil "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	providersFab "github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/msp"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config"
+	"github.com/polynetwork/fabric-relayer/pkg/core/cryptosuite"
+	"github.com/polynetwork/fabric-relayer/pkg/core/cryptosuite/bccsp/sw"
+	"github.com/polynetwork/fabric-relayer/pkg/fab"
+	fcmocks "github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
 )
 
 var (

@@ -11,9 +11,9 @@ import (
 	"time"
 
 	common "github.com/hyperledger/fabric-protos-go/common"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	mocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	mocks "github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
 )
 
 const (

@@ -19,17 +19,17 @@ import (
 	reqContext "context"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/discovery/greylist"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/filter"
-	selectopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/metrics"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel/invoke"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/discovery/greylist"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/filter"
+	selectopts "github.com/polynetwork/fabric-relayer/pkg/client/common/selection/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	contextImpl "github.com/polynetwork/fabric-relayer/pkg/context"
+	"github.com/polynetwork/fabric-relayer/pkg/fabsdk/metrics"
 )
 
 // Client enables access to a channel on a Fabric network.

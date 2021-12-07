@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package fabpvdr
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/orderer"
-	peerImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/comm"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/orderer"
+	peerImpl "github.com/polynetwork/fabric-relayer/pkg/fab/peer"
 )
 
 var logger = logging.NewLogger("fabsdk")

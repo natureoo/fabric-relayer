@@ -12,8 +12,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/multi"
 	"github.com/spf13/cast"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
@@ -22,13 +22,13 @@ import (
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/comm"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/verifier"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/context"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config/comm"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config/endpoint"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

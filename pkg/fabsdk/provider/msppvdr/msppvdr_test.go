@@ -10,13 +10,13 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/factory/defcore"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config"
+	"github.com/polynetwork/fabric-relayer/pkg/core/cryptosuite"
+	"github.com/polynetwork/fabric-relayer/pkg/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fabsdk/factory/defcore"
+	"github.com/polynetwork/fabric-relayer/pkg/msp"
+	"github.com/polynetwork/fabric-relayer/pkg/msp/test/mockmsp"
+	"github.com/polynetwork/fabric-relayer/test/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

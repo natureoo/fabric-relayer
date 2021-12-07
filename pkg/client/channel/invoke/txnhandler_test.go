@@ -19,12 +19,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	txnmocks "github.com/hyperledger/fabric-sdk-go/pkg/client/common/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	fcmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
+	txnmocks "github.com/polynetwork/fabric-relayer/pkg/client/common/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	fcmocks "github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
+	mspmocks "github.com/polynetwork/fabric-relayer/pkg/msp/test/mockmsp"
 )
 
 const (

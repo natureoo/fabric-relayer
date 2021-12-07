@@ -10,12 +10,12 @@ import (
 	"runtime/debug"
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/common/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/blockfilter"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/dispatcher"
 )
 
 const (

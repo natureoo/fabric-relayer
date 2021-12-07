@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
 	poly_common "github.com/polynetwork/poly/common"
 	common2 "github.com/polynetwork/poly/native/service/cross_chain_manager/common"
 	"strings"
@@ -231,7 +231,6 @@ func TestFabricTxStatus_1(t *testing.T) {
 		}
 	}()
 
-
 	var response2 channel.Response
 	go func() {
 		{
@@ -254,7 +253,6 @@ func TestFabricTxStatus_1(t *testing.T) {
 			fmt.Printf("after tx2, height: %d\n", info.BCI.Height)
 		}
 	}()
-
 
 	var response3 channel.Response
 	go func() {
@@ -338,7 +336,6 @@ func TestFabricTxStatus_1(t *testing.T) {
 	}
 }
 
-
 func TestFabricTxStatus_2(t *testing.T) {
 	req := channel.Request{
 		ChaincodeID: "lockproxy",
@@ -373,7 +370,6 @@ func TestFabricTxStatus_2(t *testing.T) {
 		}
 	}()
 
-
 	var response2 channel.Response
 	go func() {
 		sdk := newFabSdk()
@@ -399,7 +395,6 @@ func TestFabricTxStatus_2(t *testing.T) {
 			fmt.Printf("after tx2, height: %d\n", info.BCI.Height)
 		}
 	}()
-
 
 	var response3 channel.Response
 	go func() {
@@ -526,7 +521,6 @@ func TestFabricTxStatus_2(t *testing.T) {
 		time.Sleep(time.Microsecond * 1000)
 	}
 }
-
 
 func TestBlockEvent(t *testing.T) {
 	sdk := newFabSdk()

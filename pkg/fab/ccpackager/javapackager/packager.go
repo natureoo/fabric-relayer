@@ -18,9 +18,9 @@ import (
 	"time"
 
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/resource"
 )
 
 // Descriptor ...

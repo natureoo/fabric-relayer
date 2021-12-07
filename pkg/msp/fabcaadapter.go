@@ -11,14 +11,14 @@ import (
 
 	"encoding/json"
 
-	calib "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
-	caapi "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/api"
+	calib "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/lib"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/lib/client/credential"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/lib/client/credential/x509"
+	caapi "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/api"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/msp"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config/endpoint"
+	"github.com/polynetwork/fabric-relayer/pkg/msp/api"
 )
 
 // fabricCAAdapter translates between SDK lingo and native Fabric CA API

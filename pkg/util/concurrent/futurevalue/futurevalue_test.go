@@ -11,7 +11,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/test"
+	"github.com/polynetwork/fabric-relayer/pkg/util/test"
 )
 
 func ExampleValue_Get() {

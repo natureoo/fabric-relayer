@@ -13,13 +13,13 @@ import (
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	contextImpl "github.com/polynetwork/fabric-relayer/pkg/context"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/txn"
 )
 
 const (

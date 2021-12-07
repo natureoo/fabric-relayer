@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package dispatcher
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	esdispatcher "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	esdispatcher "github.com/polynetwork/fabric-relayer/pkg/fab/events/service/dispatcher"
 )
 
 // RegisterConnectionEvent is a request to register for connection events

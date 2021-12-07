@@ -21,12 +21,12 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/hyperledger/fabric-protos-go/common"
 	ab "github.com/hyperledger/fabric-protos-go/orderer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/test/mockfab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config/endpoint"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/test/mockfab"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config/endpoint"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
 	"github.com/stretchr/testify/assert"
 )
 

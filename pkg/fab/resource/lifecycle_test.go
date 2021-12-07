@@ -16,12 +16,12 @@ import (
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/policydsl"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/common/policydsl"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	contextImpl "github.com/polynetwork/fabric-relayer/pkg/context"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/txn"
 )
 
 func TestLifecycle_Install(t *testing.T) {

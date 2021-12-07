@@ -15,10 +15,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/polynetwork/fabric-relayer/test/metadata"
 
 	"github.com/hyperledger/fabric-protos-go/msp"
-	mspcfg "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
+	mspcfg "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/msp"
 	"github.com/stretchr/testify/require"
 )
 

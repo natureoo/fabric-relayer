@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	fabmocks "github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
 )
 
 func TestRandom(t *testing.T) {

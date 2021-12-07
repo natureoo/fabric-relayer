@@ -14,12 +14,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	mb "github.com/hyperledger/fabric-protos-go/msp"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/verifier"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/msp"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/verifier"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 )
 
 var logger = logging.NewLogger("fabsdk/fab")

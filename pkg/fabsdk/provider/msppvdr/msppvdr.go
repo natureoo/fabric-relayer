@@ -9,11 +9,11 @@ package msppvdr
 import (
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	mspimpl "github.com/hyperledger/fabric-sdk-go/pkg/msp"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/msp"
+	mspimpl "github.com/polynetwork/fabric-relayer/pkg/msp"
 )
 
 // MSPProvider provides the default implementation of MSP

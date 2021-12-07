@@ -11,12 +11,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
 	mPkcs11 "github.com/miekg/pkcs11"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/sdkpatch/cachebridge"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/util/concurrent/lazycache"
+	"github.com/polynetwork/fabric-relayer/pkg/util/concurrent/lazyref"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

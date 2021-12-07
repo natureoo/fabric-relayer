@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 )
 
 // MSPPeerRetriever is a function that retrieves peers by MSPID

@@ -10,16 +10,16 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/options"
 
 	"github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	selectopts "github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	selectopts "github.com/polynetwork/fabric-relayer/pkg/client/common/selection/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/peer"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/txn"
 )
 
 // TxnHeaderOptsProvider provides transaction header options which allow

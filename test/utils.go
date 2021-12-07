@@ -1,12 +1,12 @@
 package test
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/event"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/ledger"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/resmgmt"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel"
+	"github.com/polynetwork/fabric-relayer/pkg/client/event"
+	"github.com/polynetwork/fabric-relayer/pkg/client/ledger"
+	"github.com/polynetwork/fabric-relayer/pkg/client/resmgmt"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config"
+	"github.com/polynetwork/fabric-relayer/pkg/fabsdk"
 	"os"
 )
 

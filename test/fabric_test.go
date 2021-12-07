@@ -5,9 +5,9 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/hyperledger/fabric-protos-go/common"
 	"github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
 	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/protoutil"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
 	"testing"
 	"time"
 )

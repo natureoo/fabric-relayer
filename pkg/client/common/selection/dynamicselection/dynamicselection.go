@@ -9,16 +9,16 @@ package dynamicselection
 import (
 	"time"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazycache"
-	"github.com/hyperledger/fabric-sdk-go/pkg/util/concurrent/lazyref"
+	"github.com/polynetwork/fabric-relayer/pkg/util/concurrent/lazycache"
+	"github.com/polynetwork/fabric-relayer/pkg/util/concurrent/lazyref"
 
-	copts "github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	copts "github.com/polynetwork/fabric-relayer/pkg/common/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/dynamicselection/pgresolver"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/options"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/selection/dynamicselection/pgresolver"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/selection/options"
 )
 
 const defaultCacheTimeout = 30 * time.Minute

@@ -7,15 +7,15 @@ SPDX-License-Identifier: Apache-2.0
 package dynamicdiscovery
 
 import (
-	discclient "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/discovery/client"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/random"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	coptions "github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	contextAPI "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	reqContext "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	fabdiscovery "github.com/hyperledger/fabric-sdk-go/pkg/fab/discovery"
 	"github.com/pkg/errors"
+	discclient "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/discovery/client"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/random"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/multi"
+	coptions "github.com/polynetwork/fabric-relayer/pkg/common/options"
+	contextAPI "github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	reqContext "github.com/polynetwork/fabric-relayer/pkg/context"
+	fabdiscovery "github.com/polynetwork/fabric-relayer/pkg/fab/discovery"
 )
 
 // ChannelService implements a dynamic Discovery Service that queries

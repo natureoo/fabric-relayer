@@ -10,8 +10,8 @@ import (
 	"crypto/sha256"
 	"strconv"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 )
 
 // ctxtCacheKey is a lazy cache key for the context cache

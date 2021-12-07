@@ -21,15 +21,15 @@ import (
 	"strings"
 	"time"
 
-	fabricCaUtil "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	mspProvider "github.com/hyperledger/fabric-sdk-go/pkg/common/providers/msp"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fabsdk/api"
 	"github.com/pkg/errors"
+	fabricCaUtil "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric-ca/sdkinternal/pkg/util"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	mspProvider "github.com/polynetwork/fabric-relayer/pkg/common/providers/msp"
+	"github.com/polynetwork/fabric-relayer/pkg/core/cryptosuite"
+	"github.com/polynetwork/fabric-relayer/pkg/fabsdk"
+	"github.com/polynetwork/fabric-relayer/pkg/fabsdk/api"
 )
 
 const (

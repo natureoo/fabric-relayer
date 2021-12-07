@@ -1,7 +1,7 @@
 # Go parameters
 GOCMD=GO111MODULE=on go
 GOBUILD=$(GOCMD) build
-GOTEST=$(GOCMD) test
+#GOTEST=$(GOCMD) test
 
 relayer:
 	$(GOBUILD) -o build/bin/relayer cmd/*

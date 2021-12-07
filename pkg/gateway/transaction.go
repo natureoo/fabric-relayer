@@ -9,12 +9,12 @@ package gateway
 import (
 	"github.com/hyperledger/fabric-protos-go/peer"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel"
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/channel/invoke"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/status"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel"
+	"github.com/polynetwork/fabric-relayer/pkg/client/channel/invoke"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/status"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 )
 
 // A Transaction represents a specific invocation of a transaction function, and provides

@@ -21,10 +21,10 @@ import (
 	"strings"
 
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/common/util"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/core/chaincode/persistence"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/sdkinternal/peer/packaging"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/common/util"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/core/chaincode/persistence"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/sdkinternal/peer/packaging"
 )
 
 const (

@@ -15,16 +15,16 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/options"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/dispatcher"
-	servicemocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/dispatcher"
+	servicemocks "github.com/polynetwork/fabric-relayer/pkg/fab/events/service/mocks"
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter/headertypefilter"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/blockfilter/headertypefilter"
 )
 
 var (

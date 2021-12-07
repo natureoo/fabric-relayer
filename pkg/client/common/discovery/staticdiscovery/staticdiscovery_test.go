@@ -10,11 +10,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/config"
-	fabImpl "github.com/hyperledger/fabric-sdk-go/pkg/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	"github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
-	"github.com/hyperledger/fabric-sdk-go/test/metadata"
+	"github.com/polynetwork/fabric-relayer/pkg/core/config"
+	fabImpl "github.com/polynetwork/fabric-relayer/pkg/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/msp/test/mockmsp"
+	"github.com/polynetwork/fabric-relayer/test/metadata"
 	"github.com/stretchr/testify/assert"
 )
 

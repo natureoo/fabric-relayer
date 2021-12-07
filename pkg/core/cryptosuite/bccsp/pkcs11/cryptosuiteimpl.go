@@ -7,13 +7,13 @@ SPDX-License-Identifier: Apache-2.0
 package pkcs11
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp"
-	bccspPkcs11 "github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/factory/pkcs11"
-	"github.com/hyperledger/fabric-sdk-go/internal/github.com/hyperledger/fabric/bccsp/pkcs11"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/logging"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
-	"github.com/hyperledger/fabric-sdk-go/pkg/core/cryptosuite/bccsp/wrapper"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/bccsp"
+	bccspPkcs11 "github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/bccsp/factory/pkcs11"
+	"github.com/polynetwork/fabric-relayer/internal/github.com/hyperledger/fabric/bccsp/pkcs11"
+	"github.com/polynetwork/fabric-relayer/pkg/common/logging"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
+	"github.com/polynetwork/fabric-relayer/pkg/core/cryptosuite/bccsp/wrapper"
 )
 
 var logger = logging.NewLogger("fabsdk/core")

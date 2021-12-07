@@ -15,10 +15,10 @@ import (
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/blockfilter/headertypefilter"
-	servicemocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/service/mocks"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/blockfilter"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/service/blockfilter/headertypefilter"
+	servicemocks "github.com/polynetwork/fabric-relayer/pkg/fab/events/service/mocks"
 )
 
 var sourceURL = "localhost:9051"

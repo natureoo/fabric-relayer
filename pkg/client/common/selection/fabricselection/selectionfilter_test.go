@@ -9,7 +9,7 @@ package fabricselection
 import (
 	"testing"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
 	"github.com/stretchr/testify/require"
 )
 

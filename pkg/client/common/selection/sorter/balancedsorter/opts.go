@@ -7,8 +7,8 @@ SPDX-License-Identifier: Apache-2.0
 package balancedsorter
 
 import (
-	"github.com/hyperledger/fabric-sdk-go/pkg/client/common/selection/balancer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/options"
+	"github.com/polynetwork/fabric-relayer/pkg/client/common/selection/balancer"
+	"github.com/polynetwork/fabric-relayer/pkg/common/options"
 )
 
 type params struct {

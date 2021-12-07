@@ -11,8 +11,8 @@ import (
 
 	"strings"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/core"
 	"github.com/mitchellh/mapstructure"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/core"
 	"github.com/spf13/cast"
 )
 

@@ -17,13 +17,13 @@ import (
 
 	cb "github.com/hyperledger/fabric-protos-go/common"
 	pb "github.com/hyperledger/fabric-protos-go/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/comm"
-	clientdisp "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/client/dispatcher"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/events/deliverclient/seek"
-	eventmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/events/mocks"
-	fabmocks "github.com/hyperledger/fabric-sdk-go/pkg/fab/mocks"
-	mspmocks "github.com/hyperledger/fabric-sdk-go/pkg/msp/test/mockmsp"
 	"github.com/pkg/errors"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/comm"
+	clientdisp "github.com/polynetwork/fabric-relayer/pkg/fab/events/client/dispatcher"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/events/deliverclient/seek"
+	eventmocks "github.com/polynetwork/fabric-relayer/pkg/fab/events/mocks"
+	fabmocks "github.com/polynetwork/fabric-relayer/pkg/fab/mocks"
+	mspmocks "github.com/polynetwork/fabric-relayer/pkg/msp/test/mockmsp"
 	"google.golang.org/grpc"
 )
 

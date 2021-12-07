@@ -17,15 +17,15 @@ import (
 	lb "github.com/hyperledger/fabric-protos-go/peer/lifecycle"
 	"github.com/pkg/errors"
 
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/multi"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/errors/retry"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/context"
-	"github.com/hyperledger/fabric-sdk-go/pkg/common/providers/fab"
-	contextImpl "github.com/hyperledger/fabric-sdk-go/pkg/context"
-	lifecyclepkg "github.com/hyperledger/fabric-sdk-go/pkg/fab/ccpackager/lifecycle"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/peer"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/resource"
-	"github.com/hyperledger/fabric-sdk-go/pkg/fab/txn"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/multi"
+	"github.com/polynetwork/fabric-relayer/pkg/common/errors/retry"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/context"
+	"github.com/polynetwork/fabric-relayer/pkg/common/providers/fab"
+	contextImpl "github.com/polynetwork/fabric-relayer/pkg/context"
+	lifecyclepkg "github.com/polynetwork/fabric-relayer/pkg/fab/ccpackager/lifecycle"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/peer"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/resource"
+	"github.com/polynetwork/fabric-relayer/pkg/fab/txn"
 )
 
 //go:generate counterfeiter -o mocklifecycleresource.gen.go -fake-name MockLifecycleResource . lifecycleResource

@@ -53,15 +53,16 @@ type PolyConfig struct {
 }
 
 type FabricConfig struct {
-	SideChainId uint64
-	BlockConfig uint64
-	Channel     string
-	Chaincode   string
-	SdkConfFile string
-	UserName    string
-	OrgName     string
+	SideChainId     uint64
+	BlockConfig     uint64
+	Channel         string
+	Chaincode       string
+	SdkConfFile     string
+	UserName        string
+	OrgName         string
 	TrustChainFiles [][]string
 	PrivateKeyFiles []string
+	IsGM            bool
 }
 
 func ReadFile(fileName string) ([]byte, error) {
