@@ -192,4 +192,7 @@ orderers:
 
 ```
 nohup ./main &
+or
+./build/bin/relayer --loglevel 0
+
 ```
